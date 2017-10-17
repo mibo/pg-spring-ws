@@ -1,0 +1,46 @@
+= Spring WebSocket Sample Project
+
+Spring Web Socket Sample Project based on link:https://start.spring.io/[Start Spring] (with
+
+  - `Maven` and
+  - `Spring Boot` version `2.0.0-M5` (`@170515`);
+  - `g:de.mirb.pg`;
+  - `a:pg-ws-spring`;
+  - dependencies: `Websocket`).
+
+Also greatly inspired by:
+
+  * link:https://spring.io/guides/gs/messaging-stomp-websocket/[Spring WS Guide]
+  * link:http://www.baeldung.com/websockets-spring[Baeldung Websocket with Spring]
+
+[ TOC ]
+
+== Disclaimer
+Current source code and version is published without license. +
+If you (somebody) want to use this in his project please contact me.
+Afterwards I will grant the use of this code without warranty.
+When I find some time to inform myself about the different possible licenses at link:http://choosealicense.com[choosealicense.com]
+I will probably change to a suitable license.
+
+== General information
+Build a sample `Spring Websocket Web App`
+
+== Current Features _(for latest stable version)_
+
+  * Simple _chat_ based on guide/tutorial/blog.
+
+== New and Noteworthy
+
+  * _Nothing_
+
+
+== Start/Run Application
+
+Start the application via Maven (Shell -> `mvn spring-boot:run` or `mvn` for default goal `spring-boot:run`)
+and navigate to link:http://localhost:8080/[] (or for WS endpoint to link:http://localhost:8080/chat[]).
+
+For messaging sample just open a second browser window and start to chat.
+
+== Helpful links
+
+  * ...
